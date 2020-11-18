@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-plugin-ns-embed",
+  "name": "@pnlpal/nodebb-plugin-ns-embed",
   "version": "4.0.1",
   "description": "Embed media and rich content in posts: youtube, vimeo, twitch etc. All embeds are based on the rules. You are encouraged to build your own rules to embed everything what is embeddable.",
   "main": "./plugin/index.js",
@@ -43,5 +43,9 @@
   },
   "nbbpm": {
     "compatibility": "~1.15.x"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
