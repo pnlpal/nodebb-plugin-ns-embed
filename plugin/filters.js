@@ -28,7 +28,7 @@
     // Fix allowed attributes for some elements. NodeBB sanitizes them otherwise.
     // See NodeBB's default sanitizer config at: https://github.com/NodeBB/NodeBB/blob/master/src/posts/parse.js
     Filters.configSanitizer = function (payload, callback) {
-        payload.allowedAttributes.iframe.push('allowfullscreen', 'frameborder');
+        payload.allowedAttributes.iframe.push('allowfullscreen', 'frameborder', 'onload');
         callback(null, payload);
     };
 
